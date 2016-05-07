@@ -15,15 +15,15 @@ h2{
 
 div.off-canvas{
     height: 100%;
-    
+
     a h3{
         color: $white;
     }
-    
+
     .is-drilldown-submenu{
         background-color: darken($primary-color, 20);
-    }   
-    
+    }
+
 }
 .booking{
     padding:rem-calc(50);
@@ -44,7 +44,7 @@ div.off-canvas{
 
 .promo-video{
     position: relative;
-    
+
     #overlay{
         position: absolute;
         top: 0;
@@ -58,8 +58,8 @@ div.off-canvas{
         filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b329669e', endColorstr='#b32a3b5a',GradientType=0 ); /* IE6-9 */
 
     }
-    
-    
+
+
     .header-content{
        background-color: transparent;
         position: absolute;
@@ -67,7 +67,7 @@ div.off-canvas{
         left:0;
         width:100%;
     }
-    
+
     .headliner{
         left:0;
         top: 50%;
@@ -79,7 +79,7 @@ div.off-canvas{
             color: $white;
             text-transform: uppercase;
         }
-    }   
+    }
 }
 
 .separator-image{
@@ -103,7 +103,7 @@ div.off-canvas{
     @include breakpoint(large){
         background-image: url(../images/separators/large/separator01-image.jpg);
     }
-    
+
 }
 .bar-image{
     background-image: url(../images/separators/small/separator02-image.jpg);
@@ -113,21 +113,21 @@ div.off-canvas{
     @include breakpoint(large){
         background-image: url(../images/separators/large/separator02-image.jpg);
     }
-    
+
 }
 
 footer{
-    
+
     color:$white;
     padding-top: rem-calc(30);
-    
+
     .menu{
         a{
             color:$white;
         }
     }
-    
-    
+
+
     .contact-information{
         li{
             position: relative;
@@ -140,27 +140,27 @@ footer{
             position: absolute;
             top:0; left:0;
         }
-        
+
     }
-    
+
     .social {
         i{
             font-size: rem-calc(60);
         }
-        
+
     }
-    
+
     p.copyright{
         background-color: darken($primary-color, 5);
         margin: 0;
         padding: rem-calc(20 0);
     }
-    
+
 }
 
 
 .button{
-    
+
     @include button-style($secondary-color, darken($secondary-color, 10), $white);
 }
 
@@ -168,25 +168,25 @@ section.main-content{
     padding: rem-calc(30 0);
     div.room-image{
         position:relative;
-        
+
         .room-title{
             position:absolute;
             bottom:0;
             left:0;
             padding-left: rem-calc(20);
-            
+
             h3{
-               color:$white; 
+               color:$white;
             }
         } //end room-title
-        
+
     }
-    
+
     .room-content{
         background-color:$white;
         padding:rem-calc(20);
     }
-    
+
 }
 
 
@@ -196,11 +196,13 @@ section.main-content{
 
 
 
+.white {
+    color: white;
+}
 
-
-
-
-
+footer {
+    background: $primary-color;
+}
 
 
 
